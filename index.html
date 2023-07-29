@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="container">
+        <div class="ham-container">
+           <input type="checkbox" class="toggler">
+           <div class="hamburger"><div></div></div>
+           <div class="menu">
+            <div>
+                <div>
+                    <input class="search"   type="text" placeholder="Search CNN...">
+                </div>
+                <div>
+                    <ul>
+                        <li> <a href="#" class="b-heading">Edition</a>
+                                <li>US</li>
+                                <li>International</li>
+                                <li>Arabic</li>
+                                <li>Espanol</li>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                   <ul class="grid-container">
+                    <li>
+                        <a  class="b-heading" href="#">World</a>
+                        <ul>
+                            <li><a href="#">Africa</a></li>
+                            <li><a href="#">Asia</a></li>
+                            <li><a href="#">Americas</a></li>
+                            <li><a href="#">Austrailia</a></li>
+                            <li><a href="#">China</a></li>
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Middle East</a></li>
+                            <li><a href="#">United Kindom</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">US Politics</a>
+                        <ul>
+                            <li><a href="#">The Biden Precidency</a></li>
+                            <li><a href="#">Facts First</a></li>
+                            <li><a href="#">US Elections</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Business</a>
+                        <ul>
+                            <li><a href="#">Tech</a></li>
+                            <li><a href="#">Media</a></li>
+                            <li><a href="#">Calculators</a></li>
+                            <li><a href="#">Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Markets</a>
+                        <ul>
+                            <li><a href="#">Pre-markets</a></li>
+                            <li><a href="#">After Hours</a></li>
+                            <li><a href="#">Market Movers</a></li>
+                            <li><a href="#">Austrailia</a></li>
+                            <li><a href="#">China</a></li>
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Middle East</a></li>
+                            <li><a href="#">United Kindom</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Health</a>
+                        <ul>
+                            <li><a href="#">Life, But Better</a></li>
+                            <li><a href="#">Fitness</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Sleep</a></li>
+                            <li><a href="#">Mindfulness</a></li>
+                            <li><a href="#">Relationship</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Entertainment</a>
+                        <ul>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Television</a></li>
+                            <li><a href="#">Celebrity</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Tech</a>
+                        <ul>
+                            <li><a href="#">Innovate</a></li>
+                            <li><a href="#">Gadget</a></li>
+                            <li><a href="#">Foreseeable Future</a></li>
+                            <li><a href="#">Mission: Ahead</a></li>
+                            <li><a href="#">Upstarts</a></li>
+                            <li><a href="#">Work Transformed</a></li>
+                            <li><a href="#">Innovative Cities</a></li>
+                            
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="b-heading" href="#">Style</a>
+                        <ul>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Luxury</a></li>
+                            <li><a href="#">Beauty</a></li>
+                            <li><a href="#">Video</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading" href="#">Travel</a>
+                        <ul>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Food & Drink</a></li>
+                            <li><a href="#">Stay</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Video</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading" href="#">Sports</a>
+                        <ul>
+                            <li><a href="#">Football</a></li>
+                            <li><a href="#">Tennis</a></li>
+                            <li><a href="#">Golf</a></li>
+                            <li><a href="#">Motorsport</a></li>
+                            <li><a href="#">Us Sport</a></li>
+                            <li><a href="#">Olympics</a></li>
+                            <li><a href="#">Climbing</a></li>
+                            <li><a href="#">Esports</a></li>
+                            <li><a href="#">Hockey</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading" href="#">Videos</a>
+                        <ul>
+                            <li><a href="#">Live Tv</a></li>
+                            <li><a href="#">Digital Studio</a></li>
+                            <li><a href="#">CNN Films</a></li>
+                            <li><a href="#">HlN</a></li>
+                            <li><a href="#">Tv Schedules</a></li>
+                            <li><a href="#">Tv Shows A-Z</a></li>
+                            <li><a href="#">CNNVR</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading" href="#">Features</a>
+                        <ul>
+                            <li><a href="#">AS Equals</a></li>
+                            <li><a href="#">Call to Earth</a></li>
+                            <li><a href="#">Freedom Project</a></li>
+                            <li><a href="#">Impact Your World</a></li>
+                            <li><a href="#">Inside Africa</a></li>
+                            <li><a href="#">2degrees</a></li>
+                            <li><a href="#">All Features</a></li>
+                            <li><a href="#">CNN Heroes</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading"href="#">Weather</a>
+                        <ul>
+                            <li><a href="#">Climate</a></li>
+                            <li><a href="#">Wildfire Tracker</a></li>
+                            <li><a href="#">Video</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a  class="b-heading" href="#">More</a>
+                        <ul>
+                            <li><a href="#">Photoes</a></li>
+                            <li><a href="#">LongForm</a></li>
+                            <li><a href="#">Investigations</a></li>
+                            <li><a href="#">CNN Profiles</a></li>
+                            <li><a href="#">CNN Leadership</a></li>
+                            <li><a href="#">CNN Newsletter</a></li>
+                            <li><a href="#">Work For CNN</a></li>
+                            
+                        </ul>
+                    </li>
+                   </ul>
+                </div>
+                <div>
+                    <h2>Follow CNN</h2>
+                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div>
+            <img src="Cnn_logo_red_background.png" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">US</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Opinion</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Style</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Video</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Audio</h2>
+            <h2>Live TV</h2>
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+             <button>Log In</button>
+        </div>
+    </div>
+    </nav>
+</body>
+</html>
